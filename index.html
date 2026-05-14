@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Shindo — Links</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Police épaisse -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  background: #ffd6e8; /* rose girly */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+  transition: 0.3s ease;
+}
+
+.section:hover img {
+  filter: brightness(55%);
+  transform: scale(1.03);
+}
+
+.section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Footer photo EXACT 852x287 */
+.footer-photo {
+  width: 100%;
+  height: 287px;
+  object-fit: cover;
+  margin-top: 30px;
+  border-radius: 0;
+}
+</style>
+</head>
+
+<body>
+
+<!-- 1) SHINDO -->
+<a href="https://shindo111.netlify.app/" target="_blank">
+  <div class="section">
+    <img src="images/shindo.jpg" alt="Shindo">
+    <h1>SHINDO</h1>
+  </div>
+</a>
+
+<!-- 2) Ongles -->
+<a href="https://www.instagram.com/nails.xsai?igsh=NXZxM3V5dnphejhn&utm_source=qr" target="_blank">
+  <div class="section">
+    <img src="images/22.jpg" alt="Nails">
+    <h1>NAILS</h1>
+  </div>
+</a>
+
+<!-- 3) YouTube -->
+<a href="https://youtube.com/@sai99bunny" target="_blank">
+  <div class="section">
+    <img src="images/youtube.jpg" alt="YouTube">
+    <h1>YOUTUBE</h1>
+  </div>
+</a>
+
+<!-- 4) Books -->
+<a href="https://tonlien-lectures.com" target="_blank">
+  <div class="section">
+    <img src="images/livres.jpg" alt="Books">
+    <h1>BOOKS</h1>
+  </div>
+</a>
+
+<!-- Titre avant le footer -->
+<h2 style="
+  text-align:center;
+  font-size:3.2rem;
+  font-weight:900;
+  color:#d33684; /* couleur exacte de ton image */
+  letter-spacing:4px;
+  margin:40px 0 20px 0;
+  font-family:'Anton', sans-serif;
+">
+MY WORLD IN COLORS ִֶָ. ..𓂃 ࣪ ִֶָ🪽་༘࿐
+</h2>
+
+<!-- Footer photo -->
+<img src="images/00.jpg" class="footer-photo" alt="Footer">
+
+</body>
+</html>
